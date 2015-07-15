@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
 <pogoDsl:PogoSystem xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pogoDsl="http://www.esrf.fr/tango/pogo/PogoDsl">
   <classes name="VacuumGuage" pogoRevision="8.1">
-    <description description="" title="Prevac training" sourcePath="C:\Users\User\OneDrive\Dokumenty\work\presentations\Tango\src" language="Cpp" filestogenerate="XMI   file,Code files,html Pages" license="LGPL" hasMandatoryProperty="false" hasConcreteProperty="false" hasAbstractCommand="false" hasAbstractAttribute="false" descriptionHtmlExists="false">
+    <description description="" title="Prevac training" sourcePath="/home/guest/src/tango-training-ionguage" language="Cpp" filestogenerate="XMI   file,Code files,Makefile,html Pages" license="LGPL" hasMandatoryProperty="false" hasConcreteProperty="false" hasAbstractCommand="false" hasAbstractAttribute="false" descriptionHtmlExists="false">
       <inheritances classname="Device_Impl" sourcePath=""/>
       <identification contact="at uj.edu.pl - piotr.goryl" author="piotr.goryl" emailDomain="uj.edu.pl" classFamily="Training" siteSpecific="" platform="All Platforms" bus="Not Applicable" manufacturer="none" reference=""/>
     </description>
@@ -64,9 +64,6 @@
     <states name="OFF" description="The guage is off">
       <status abstract="false" inherited="false" concrete="true" concreteHere="true"/>
     </states>
-    <states name="FAULT" description="The system is broken">
-      <status abstract="false" inherited="false" concrete="true" concreteHere="true"/>
-    </states>
-    <preferences docHome="./doc_html" makefileHome="/home/taurel/tmp/tango_install/share/pogo/preferences"/>
+    <preferences docHome="./doc_html" makefileHome="/usr/local/share/pogo/preferences"/>
   </classes>
 </pogoDsl:PogoSystem>

@@ -44,7 +44,6 @@ static const char *RcsId = "$Id:  $";
 //================================================================
 //  ON      |  The guage is On
 //  OFF     |  The guage is off
-//  FAULT   |  The system is broken
 
 
 namespace VacuumGuage_ns
